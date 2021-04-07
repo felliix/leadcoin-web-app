@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getOne (remove created, id from snapshot) 1`] = `
+Object {
+  "disabled": null,
+  "email": "example_email@example_email.com",
+  "fname": "first name",
+  "lname": "last name",
+}
+`;
+
+exports[`getUserByEmailAndPassword (remove id,created,password from snapshot) 1`] = `
+Object {
+  "disabled": null,
+  "email": "myemail5@myemail.com",
+  "fname": "",
+  "lname": "",
+}
+`;
+
+exports[`setNewPassword, and getUserByEmailAndPassword (remove password,created,id from snapshot) 1`] = `
+Object {
+  "disabled": null,
+  "email": "myemail22@myemail.com",
+  "fname": "",
+  "lname": "",
+}
+`;

@@ -1,0 +1,50 @@
+.ldc-checkout {
+  display: flow-root;
+
+  .error {
+    text-align: right;
+    color: orangered;
+    margin: 5px;
+    clear: both;
+  }
+
+  .c-total {
+    font-size: 14px;
+    font-weight: 300;
+
+    table {
+      width: 100%;
+      padding: 0 63px;
+    }
+  }
+
+  .c-details {
+    position: relative;
+    float: right;
+    font-size: 24px;
+
+    table {
+      border-collapse: collapse;
+      margin: 20px 0;
+
+      .c-remainder {
+        border-top: 2px solid white;
+      }
+    }
+  }
+
+  .amount {
+    text-align: right;
+    padding-left: 10px;
+  }
+
+  .button-container {
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+
+    .ldc-button {
+      float: right;
+    }
+  }
+}

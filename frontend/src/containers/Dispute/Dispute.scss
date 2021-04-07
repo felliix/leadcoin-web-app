@@ -1,0 +1,20 @@
+.ldc-dispute {
+  display: flow-root;
+  max-width: 450px;
+
+  .ldc-textarea {
+    margin-bottom: 30px;
+  }
+
+  .ldc-button {
+    float: right;
+  }
+
+  .button-container {
+    display: flow-root;
+  }
+
+  .description {
+    margin-top: 10px;
+  }
+}

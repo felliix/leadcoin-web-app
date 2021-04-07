@@ -1,0 +1,68 @@
+.ldc-user-menu {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+
+  &:before {
+    font-size: 30px;
+  }
+
+  .user-menu-inner {
+    position: absolute;
+    width: 200px;
+    top: 55px;
+    left: -150px;
+    background: #433190;
+    line-height: 30px;
+
+    .small-arrow {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: -6px;
+      right: 15px;
+      background: #433190;
+      transform: rotateZ(45deg);
+      z-index: -1;
+    }
+
+    label {
+      display: block;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1;
+      padding: 15px;
+      border-bottom: 1px solid #6a56bb;
+
+      span {
+        display: inline-block;
+        text-transform: lowercase;
+        padding-top: 10px;
+        max-width: 100%;
+        height: 26px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .um-row {
+      display: block;
+      padding: 8px 15px;
+      color: white;
+      font-weight: 400;
+
+      &.log-out {
+        border-top: 1px solid #6a56bb;
+
+        &:hover {
+          border-top-color: #b7adef;
+        }
+      }
+
+      &:hover {
+        background-color: #b7adef;
+        border-bottom-color: #b7adef;
+      }
+    }
+  }
+}

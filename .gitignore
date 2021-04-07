@@ -1,0 +1,8 @@
+node_modules
+yarn-error.log
+.env
+.idea
+.vscode
+deploy_rsa
+*.ppk
+gitlog.txt

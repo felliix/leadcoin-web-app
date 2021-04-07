@@ -1,0 +1,96 @@
+@import "~Styles/variables";
+
+.fields_mapper {
+  padding: 10px;
+  .terms {
+    margin-right: 160px;
+    width: 200px;
+    padding-top: 15px;
+  }
+  .personal {
+    padding-bottom: 10px;
+    border-bottom: solid 1px black;
+  }
+  .public {
+    padding-top: 10px;
+  }
+  .controls {
+    margin: 20px;
+  }
+  .help_text {
+    width: 200px;
+  }
+  .mapSubmit {
+    margin-right: 2px;
+  }
+  .form_error {
+    color: $ldc-error-color;
+    select {
+      border-color: $ldc-error-color;
+    }
+  }
+  .error {
+    color: $ldc-error-color;
+    label {
+      color: $ldc-error-color;
+    }
+  }
+  .line {
+    margin: 10px 10px;
+    height: 40px;
+    line-height: 40px;
+    .fieldLabel {
+      width: 200px;
+      margin-right: 5px;
+      text-transform: capitalize;
+    }
+  }
+  .price {
+    margin-left: 212px;
+    input {
+      margin-left: 52px;
+      width: 240px;
+    }
+  }
+  .flexed {
+    display: flex;
+  }
+}
+
+.csvUpload {
+  padding: 10px;
+  .header {
+    &.bigger {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    &.smaller {
+      font-weight: normal;
+      font-size: 16px;
+    }
+  }
+  .file-pick {
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 10px;
+    .ldc-button {
+      position: relative;
+      .displaynone {
+        position: absolute;
+        opacity: 0;
+        border-radius: 25px;
+        width: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+    }
+
+    .template {
+      margin-top: 30px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "allowJs": true,
+    "checkJs": false,
+    "baseUrl": "./",
+    "experimentalDecorators": true,
+    "paths": {
+      "@/*": ["*"]
+    },
+    "outDir": "./temp-outdir",
+    "sourceMap": true
+  },
+  "include": ["./../frontend/src/api/**.*", "./*.*"],
+  "exclude": ["node_modules", "**/node_modules/*", "./dist"]
+}

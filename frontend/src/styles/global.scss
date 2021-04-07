@@ -1,0 +1,52 @@
+@import "~Styles/helpers";
+@import "~Styles/ldc-rtl";
+@import "./inlinemanual.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  direction: ltr; // We need it, so rtlcss, will change it to rtl
+  margin: 0;
+  padding: 0;
+  background-color: $main-color;
+  overflow-x: hidden;
+
+  *:not(i) {
+    font-family: proxima-nova, "Source Sans Pro", sans-serif;
+  }
+
+  // div:not([class*="Toastify"]),
+  // p,
+  // label {
+  color: #fff;
+  // }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: #3190fc;
+    text-underline-position: under;
+  }
+  .no-underline {
+    text-decoration: none;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style-type: none;
+    }
+  }
+}
