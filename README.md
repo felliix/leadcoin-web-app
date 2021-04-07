@@ -14,7 +14,6 @@ This is LeadCoin’s first product code release to GitHub, representing a major 
 - [Architecture](#architecture)
 - [Getting started](#getting-started)
 - [Storybook](#storybook)
-- [Feedback](#feedback)
 - [Contributing](#contributing)
 - [Code of Conduct](#code-of-conduct)
 - [Disclaimer](#disclaimer)
@@ -65,12 +64,6 @@ PORT=8080
 
 Use the below link to interact with the development environment of the UI components. It allows you to browse our component library and view the different states of each component.
 http://1.sg.leadcoin.network
-
-## Feedback
-
-- [Join our Telegram](https://t.me/LeadCoinNetwork)
-- [Report a bug in GitHub Issues](https://github.com/LeadcoinNetwork/leadcoin-web/issues)
-- [Tweet us with other feedback](https://twitter.com/leadcoinnetwork)
 
 ## Contributing
 
